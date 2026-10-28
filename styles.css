@@ -63,6 +63,10 @@ h2 { margin: 0; font-size: clamp(38px, 5.2vw, 64px); line-height: .98; font-weig
 .project-description { max-width: 440px; margin: 0; color: #56625d; font-size: 13px; line-height: 1.55; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 17px; }
 .tag-list span { padding: 5px 8px; border: 1px solid #1926242b; font-family: var(--mono); font-size: 8px; }
+.project-site-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 17px; padding: 9px 12px; background: var(--ink); color: var(--paper); font-size: 11px; font-weight: 600; text-decoration: none; transition: background 160ms ease, transform 160ms ease; }
+.project-site-link span { color: var(--lime); font-size: 15px; }
+.project-site-link:hover { transform: translate(2px, -2px); background: #bd5437; }
+.project-site-link:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
 .project-art { position: relative; height: 190px; overflow: hidden; }
 .project-gallery { position: relative; height: 190px; min-width: 0; overflow: hidden; background: #e6e8df; }
 .gallery-image { display: block; width: 100%; height: 100%; object-fit: cover; }

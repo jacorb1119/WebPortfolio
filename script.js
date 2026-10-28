@@ -43,6 +43,20 @@ const galleryPhotos = {
       alt: "Rent Manager tenant list with lease periods, status, and balances",
     },
   ],
+  "web-laro": [
+    {
+      src: "Web%20laro%20photos/Screenshot%202026-10-29%20021216.png",
+      alt: "Web Laro website screenshot 1",
+    },
+    {
+      src: "Web%20laro%20photos/Screenshot%202026-10-29%20021233.png",
+      alt: "Web Laro website screenshot 2",
+    },
+    {
+      src: "Web%20laro%20photos/Screenshot%202026-10-29%20021248.png",
+      alt: "Web Laro website screenshot 3",
+    },
+  ],
 };
 
 document.querySelectorAll("[data-gallery]").forEach((projectGallery) => {
